@@ -1,4 +1,4 @@
-                                                      ****Airline Passenger Satisfaction Prediction****
+                                                  ****Airline Passenger Satisfaction Prediction****
                                                       
 
 ****Overview****
@@ -19,6 +19,7 @@ The dataset is well-suited for classification tasks and provides comprehensive i
 
 ****Methodology****
 The project follows a typical data science workflow:
+
 **1. Data Preprocessing:**
 Handling missing values and outliers.
 Encoding categorical variables using One-Hot Encoding.
@@ -51,6 +52,7 @@ The final model, XGBoost, achieved an accuracy of 96%, making it the best-perfor
 * Inflight Wi-Fi service, Online Boarding, and Business Class travel were found to significantly affect customer satisfaction.
 * Passengers in Business Class and those who traveled long distances were generally more satisfied.
 * Passengers in Economy Class reported lower satisfaction levels, especially with services like food, seat comfort, and legroom.
+  
 **Model Performance:**
 * The XGBoost model performed best with a 96% accuracy and high ROC-AUC scores, closely followed by the Random Forest model.
 * Random Forest provided a good balance of accuracy and training time, but XGBoost outperformed it in handling complex data patterns.
