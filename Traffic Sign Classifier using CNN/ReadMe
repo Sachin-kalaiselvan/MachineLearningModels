@@ -1,1 +1,23 @@
+                                                                          Traffic Sign Classifier using CNN
 
+*** Project Overview ***
+This project uses a Convolutional Neural Network (CNN) to classify traffic signs from the German Traffic Sign Recognition Benchmark (GTSRB) dataset. 
+The model recognizes different traffic signs, contributing to autonomous driving technology and traffic safety systems.
+
+** Features **
+1. Traffic sign classification using deep learning
+2. Data augmentation to improve model performance
+3. Achieves high accuracy on the GTSRB dataset
+
+** Installation **
+1. Clone the repository: git clone <repo_url>
+2. Install dependencies: pip install tensorflow numpy opencv-python matplotlib
+3. Download the GTSRB dataset (https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) 
+
+** Usage **
+1. Preprocess the data by running: python preprocess.py
+2. Train the CNN model: python train.py
+3. Test the model: python test.py
+
+** Results **
+The model achieves a classification accuracy of over 99% on the GTSRB dataset.
